@@ -1,0 +1,34 @@
+@charset "UTF-8";
+.box {
+  background: pink; }
+  .box .top {
+    min-height: 45px;
+    background: #2e2828;
+    border-top: 1px solid #ccc;
+    /*!头部版心*/ }
+    .box .top .top-center {
+      width: 1500px;
+      min-height: 45px;
+      margin: 0 auto;
+      /*!头部左边*/
+      /*!头部右边*/ }
+      .box .top .top-center .tleft {
+        float: left;
+        line-height: 45px; }
+        .box .top .top-center .tleft li {
+          border-right: 1px solid #414141;
+          float: left;
+          padding: 0px 10px 0px 8px;
+          color: #afafaf; }
+        .box .top .top-center .tleft li.tli1 {
+          padding-left: 0px; }
+      .box .top .top-center .tright {
+        float: right;
+        line-height: 45px; }
+        .box .top .top-center .tright li {
+          border-right: 1px solid #414141;
+          float: left;
+          padding: 0px 10px 0px 8px;
+          color: #afafaf; }
+        .box .top .top-center .tright li.tli2 {
+          border: none; }
